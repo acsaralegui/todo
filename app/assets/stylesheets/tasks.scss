@@ -23,7 +23,7 @@ button {
 body {
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.4em;
-  background: #f5f5f5;
+  background: #5AECDCD;
   color: #4d4d4d;
   min-width: 230px;
   max-width: 550px;
@@ -59,7 +59,7 @@ input[type="checkbox"] {
 .todoapp input::-moz-placeholder {
   font-style: italic;
   font-weight: 300;
-  color: #e6e6e6;
+  color: #007777;
 }
 
 .todoapp input::input-placeholder {
@@ -75,7 +75,7 @@ input[type="checkbox"] {
   font-size: 100px;
   font-weight: 100;
   text-align: center;
-  color: rgba(175, 47, 47, 0.15);
+  color: #056DB1;
   -webkit-text-rendering: optimizeLegibility;
   -moz-text-rendering: optimizeLegibility;
   text-rendering: optimizeLegibility;
@@ -147,7 +147,7 @@ label[for='toggle-all'] {
 
 .todo-list li {
   position: relative;
-  font-size: 24px;
+  font-size: 25px;
   border-bottom: 1px solid #ededed;
 }
 
@@ -381,4 +381,6 @@ html .clear-completed:active {
 .author a {
   color: #b83f45;
 }
+
+
 }
